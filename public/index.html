@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECE 461 - Team 26: Project Phase 2</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>ECE 461 - Team 26: Project Phase 2</h1>
+    </header>
+    <main>
+        <section id="search-section">
+            <label for="search-input">Search for a package:</label>
+            <input type="text" id="search-input" placeholder="Search here..." />
+            <button id="search-btn">Search</button>
+        </section>
+        <section id="buttons-section">
+            <button id="upload-btn">Upload Package</button>
+            <button id="update-btn">Update Package</button>
+            <button id="rate-btn">Rate Package</button>
+            <button id="cost-btn">Package Cost</button>
+            <button id="get-btn">Get Packages</button>
+        </section>
+        <section id="input-section" style="display: none;">
+            <input type="text" id="dynamic-input" placeholder="Enter required input" />
+            <button id="submit-btn">Submit</button>
+        </section>
+        <section id="response-section">
+            <h2>Featured Content</h2>
+            <p>This is where your content will be displayed!</p>
+            <pre id="response-output"></pre>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+
+    <script src="/src/index.ts" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* General body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center vertically */
+    background-color: #e8ecef;
+    color: #333;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default body margin */
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 2em 0;
+    background-color: #1800a3;
+    color: #fff;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+
+.header-button {
+    /* Remove default button appearance */
+    all: unset;
+    cursor: pointer; /* Show pointer cursor to indicate interactivity */
+    font-size: inherit; /* Inherit the font size of the <h1> */
+    font-family: inherit; /* Inherit the font family of the <h1> */
+    font-weight: inherit; /* Keep bold weight if <h1> has it */
+    color: inherit; /* Match the text color of <h1> */
+}
+
+.header-button:focus {
+    outline: 2px solid #007bff; /* Optional: visible focus indicator for accessibility */
+    outline-offset: 2px; /* Create space between text and focus outline */
+}
+
+/* Search Section */
+.search-section {
+    margin: 1.5em 0;
+    text-align: center;
+}
+
+#search-input {
+    width: 300px;
+    padding: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.search-section button {
+    padding: 0.5em 1em;
+    margin-left: 0.5em;
+    background-color: #2703fc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-section button:hover {
+    background-color: #0288d1;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Main content styling */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center; /* Center-align text */
+    width: 80%;
+}
+
+/* Section margins */
+section {
+    margin: 20px 0;
+    text-align: center; /* Center-align section content */
+}
+
+/* Button styling */
+button {
+    margin: 5px;
+    padding: 0.7em 1.5em;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    background-color: #2703fc;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Input fields */
+input[type="text"] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: left;
+}
+
+/* Response section */
+#response-output {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    overflow-x: auto;
+    font-family: monospace;
+    text-align: left;
+}
+
+/* Footer Section */
+footer {
+    margin-top: 2em;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    font-size: 0.9em;
+}
