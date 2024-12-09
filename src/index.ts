@@ -1,8 +1,8 @@
 
 import axios from 'axios';
 
-// const apiBaseUrl = "http://ec2-3-144-8-160.us-east-2.compute.amazonaws.com:3000";
-const apiBaseUrl = "http://localhost:3000";
+const apiBaseUrl = "http://ec2-3-144-8-160.us-east-2.compute.amazonaws.com:3000";
+// const apiBaseUrl = "http://localhost:3000";
 const searchButton = document.getElementById('search-btn') as HTMLButtonElement;
 const uploadButton = document.getElementById('upload-btn') as HTMLButtonElement;
 const updateButton = document.getElementById('update-btn') as HTMLButtonElement;
