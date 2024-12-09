@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Frontend for ECE 461 Team 26 Project Phase 2",
     "scripts": {
-        "start": "parcel public/index.html --port 8080",
+        "start": "parcel public/index.html --host 0.0.0.0 --port 8080",
         "build": "parcel build public/index.html"
     },
     "dependencies": {
